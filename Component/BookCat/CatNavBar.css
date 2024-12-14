@@ -1,0 +1,10 @@
+.Catg{
+    color: #000;
+    padding: 1.69vh 2vh;
+    text-decoration: none;
+    margin-left: 2vh;
+}
+.Catg:hover{
+    background-color: #555;
+    color: white;
+}

@@ -1,0 +1,83 @@
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  #i1{
+    height: 90vh;
+    width: 221vh;
+    margin-top: 10vh;
+    margin-left: -1vh;
+    margin-right: -1vh;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 80%;
+  }
+  #header{
+    font-size: 5vh;
+    position: absolute;
+    left:3vh;
+    color: rgb(3, 3, 108);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  #h1{
+    color: white;
+    font-family: Verdana;
+    position: absolute;
+    top: 21vh;
+    left: 10vh;
+    font-size: 7vh;
+  }
+  #h2{
+    color: white;
+    font-family: Verdana;
+    position: absolute;
+    top: 33vh;
+    left: 10vh;
+    font-size: 7vh;
+  }
+  #h3{
+    color: white;
+    font-family: Verdana;
+    position: absolute;
+    top: 45vh;
+    left: 10vh;
+    font-size: 7vh;
+  }
+  #h4{
+    color: white !important;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 57vh;
+    left: 11vh;
+  }
+  #l1{
+    color: rgb(36, 35, 35);
+    font-size:3vh;
+    margin-left: 190vh;
+  }
+  #l2{
+    color: rgb(36, 35, 35);
+    font-size: 3vh;
+    margin-left: 2vh;
+  }
+  #admin{
+    position: absolute;
+    left: 80vh;
+    height: 30vh;
+    width: 30vh;
+  }
+  #student{
+    position: absolute;
+    left: 110vh;
+    height: 30vh;
+    width: 30vh;
+  }
+  #h5{
+    font-family: Courier;
+    position: relative;
+    top: 30vh;
+    left: 90vh;
+  }

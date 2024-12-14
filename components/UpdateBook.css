@@ -1,0 +1,80 @@
+/* src/UpdateBook.css */
+.App{
+  width: 100vw;
+  height: 100vh;
+  
+  /* margin-right: -80%; */
+}
+
+.navall{
+  width: 100%;
+  display: table;
+}
+.Navbar{
+  height: 159vh;
+  width:28vh;
+  display: table-cell;
+  margin-top: -100%;
+  padding-top: 0%;
+
+}
+.name{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.update-book-container {
+  display: table-cell;
+  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    border-color:black;
+  border-width: 15px;
+  /* margin-right:80%; */
+  margin-bottom: -30%;
+  border-style: groove;
+  background: rgba(49,49,49,0.8);
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    
+  }
+  
+  .update-book-form {
+    
+    max-width: 400px;
+    width: 100%;
+    text-align-last: center;
+    padding: 20px;
+    margin-left: 35%;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(10, 10, 10, 0.1);
+  }
+  
+  
+  .update-book-heading {
+    color: #3498db;
+    align-items: flex-start;
+  }
+  
+  .submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: rgb(3, 3, 108);
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}

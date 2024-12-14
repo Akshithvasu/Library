@@ -1,0 +1,125 @@
+#container{
+    margin-top: 2vh;
+    height: 76vh;
+    width: 145vh;
+    background-color: antiquewhite;
+
+}
+table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-height: auto;
+    min-width: 1000px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+table thead tr {
+  background-color: rgb(66, 67, 100);
+  color: #ffffff;
+  text-align: left;
+}
+.table th,
+.table td {
+    padding: 12px 15px;
+}
+.table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+#book_container{
+    position: absolute;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    margin-bottom: 2vh;
+    width: 140vh;
+    height: 72vh;
+    background-color: white;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: justify;
+}
+.search-container{
+    position: absolute;
+    left:180vh;
+}
+input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+@media screen and (max-width: 600px) {
+    .search-container {
+      float: none;
+    }
+    input[type=text] {
+      border: 1px solid #ccc;  
+    }
+  }
+  body.active-modal {
+    overflow-y: hidden;
+}
+
+.modal, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #f1f1f1;
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+}
+
+#dune{
+  height: 30vh;
+  width: auto;
+
+}
+.container{
+  width: 100%;
+  display: table;
+}
+.child1{
+  height: 150vh;
+  width:28vh;
+  display: table-cell;
+}
+.child2{
+  display: table-cell;
+}
